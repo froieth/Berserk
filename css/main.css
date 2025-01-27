@@ -31,5 +31,6 @@ header {
 }
 
 #mark {
-    text-align: left;
+    width: 200px;
+    height: auto;
 }
