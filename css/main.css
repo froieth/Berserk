@@ -34,3 +34,23 @@ header {
     width: 200px;
     height: auto;
 }
+
+video {
+    width: 3960px;
+    height: auto;
+}
+
+main {
+    background-color: rgba(0, 0, 0, 0.7);
+    max-width: 3960px;
+    margin: auto;
+}
+
+.image-left {
+    position: absolute;
+    right: 0;
+}
+
+footer {
+    background: linear-gradient(to bottom, #000, #D71529);
+}
