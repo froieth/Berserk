@@ -44,10 +44,10 @@ video {
 main {
     background-color: rgba(0, 0, 0, 0.7);
     max-width: 3960px;
-    margin: auto;
+    margin: 300px auto auto;
 }
 
-h1, p, img {
+h1, p {
     padding: 50px;
 }
 
