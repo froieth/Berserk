@@ -5,7 +5,7 @@
 body {
     color: white;
     font-family: "Roboto Flex", "sans-serif";
-    font-size: 32px;
+    font-size: 70px;
     background-image: url("../img/berserk-panel-guts-color.jpg");
     background-attachment: fixed;
     background-size: cover;
@@ -24,15 +24,16 @@ strong {
 
 header {
     width: 100%;
-    margin: -85px auto 0;
+    top: 0;
     background-color: black;
-    position: fixed;
     text-align: center;
+    position: fixed;
 }
 
 #mark {
     width: 200px;
     height: auto;
+    float: left;
 }
 
 video {
@@ -46,11 +47,13 @@ main {
     margin: auto;
 }
 
-.image-left {
-    position: absolute;
-    right: 0;
+h1, p, img {
+    padding: 50px;
 }
 
 footer {
+    color: #e5e5e5;
+    width: 100%;
     background: linear-gradient(to bottom, #000, #D71529);
+    border-top: 1px solid #e5e5e5;
 }
