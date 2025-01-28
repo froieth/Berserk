@@ -1,16 +1,25 @@
-document.addEventListener("DOMContentLoaded", function() {
+// script.js
+/*document.addEventListener("DOMContentLoaded", function() {
     var modal = document.getElementById("modal");
-    var closeButton = document.getElementsByClassName("close-button")[0];
+    var continueButton = document.getElementById("continue-button");
 
-    modal.style.display = "block";
+    modal.style.display = "flex";
 
-    closeButton.onclick = function() {
+    continueButton.onclick = function() {
         modal.style.display = "none";
     }
+});
+*/
+document.addEventListener("DOMContentLoaded", function() {
+    var modal = document.getElementById("modal");
+    var continueButton = document.getElementById("continue-button");
 
-    window.onclick = function(event) {
-        if (event.target == modal) {
-            modal.style.display = "none";
-        }
+    document.body.classList.add('modal-open');
+    modal.style.display = "flex";
+
+    continueButton.onclick = function() {
+        document.body.classList.remove('modal-open');
+        modal.style.display = "none";
     }
 });
+
