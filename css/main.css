@@ -3,6 +3,10 @@
 }
 
 /* Début message */
+h1#avertissement {
+    color: red;
+    font-size: 2.5em;
+}
 .modal {
     display: none;  /* Masque la fenêtre par défaut */
     position: fixed;
@@ -23,6 +27,7 @@
     margin: auto;
     padding: 20px;
     width: 80%;
+    font-size: 120%;
 }
 
 .close-button {
