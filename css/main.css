@@ -51,8 +51,8 @@ h1#avertissement {
 }
 
 .button-container {
-    display: flex; /* Active Flexbox uniquement pour le conteneur du bouton */
-    justify-content: center; /* Centre le bouton horizontalement */
+    display: flex;
+    justify-content: center;
 }
 /* Fin message*/
 
@@ -112,4 +112,14 @@ footer {
     background: linear-gradient(to bottom, #000, #D71529);
     border-top: 1px solid #e5e5e5;
     padding-top: 50px;
+    display: flex;
+    align-items: center;
+    height: 6vh;
+}
+
+.img-right {
+    float: right;
+    margin-right: 50px;
+    width: 800px;
+    height: auto;
 }
