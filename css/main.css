@@ -119,6 +119,7 @@ footer {
 
 .img-right {
     float: right;
+    margin-top: -8em;
     margin-right: 50px;
     width: 800px;
     height: auto;
