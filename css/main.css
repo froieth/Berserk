@@ -2,7 +2,7 @@
     box-sizing: border-box;
 }
 
-/* Début message */
+/* MESSAGE */
 body.modal-open {
     overflow: hidden;
 }
@@ -12,8 +12,8 @@ body:not(.modal-open) {
 }
 
 h1#avertissement {
-    color: red;
-    font-size: 2.5em;
+    color: #D71529;
+    font-size: 2em;
 }
 .modal {
     display: none;  /* Masque la fenêtre par défaut */
@@ -35,18 +35,19 @@ h1#avertissement {
     margin: auto;
     padding: 20px;
     width: 80%;
-    font-size: 120%;
+    font-size: 100%;
+    border: 2px solid #D71529;
 }
 
 #continue-button {
     font-family: Anton SC, sans-serif;
-    color: red;
+    color: #D71529;
     background-color: black;
-    border: 1px solid red;
+    border: 2px solid #D71529;
     margin-top: 20px;
     padding: 20px 40px;
-    border-radius: 30px;
-    font-size: 120%;
+    border-radius: 20px;
+    font-size: 100%;
     cursor: pointer;
 }
 
@@ -56,10 +57,59 @@ h1#avertissement {
 }
 /* Fin message*/
 
-img {
-    max-width: 100%;
+/*HEADER*/
+header {
+    width: 100%;
+    top: 0;
+    background-color: black;
+    text-align: center;
+    position: fixed;
 }
 
+header img {
+    margin-top: 10px;
+}
+
+#mark {
+    width: 60px;
+    height: auto;
+    float: left;
+}
+
+.berserk-logo {
+    width: 180px;
+    height: auto;
+    margin-right: -12em;
+}
+
+header ul{
+    list-style-type: none;
+    float: right;
+    margin: 17px 0;
+}
+
+header li {
+    display: inline-block;
+    margin: 0 1em;
+    font-size: 20px;
+}
+
+header li a {
+    text-decoration: none;
+    font-family: "Anton SC", "sans-serif";
+    color: #D71529;
+}
+
+header li a:hover {
+    color: white;
+}
+
+.actif {
+    display: none;
+}
+/*fin header*/
+
+/*BODY*/
 body {
     color: white;
     font-family: "Roboto Flex", "sans-serif";
@@ -71,6 +121,10 @@ body {
     background-repeat: no-repeat;
 }
 
+img {
+    max-width: 100%;
+}
+
 h1 {
     font-family: "Anton SC", "sans-serif";
     font-size: 96px;
@@ -78,25 +132,6 @@ h1 {
 
 strong {
     font-style: italic;
-}
-
-header {
-    width: 100%;
-    top: 0;
-    background-color: black;
-    text-align: center;
-    position: fixed;
-}
-
-#mark {
-    width: 80px;
-    height: auto;
-    float: left;
-}
-
-.berserk-logo {
-    width: 200px;
-    height: auto;
 }
 
 video {
@@ -115,21 +150,34 @@ h1, p {
     padding: 50px;
 }
 
+.img-right {
+    float: right;
+    margin-top: -8em;
+    margin-right: 50px;
+    width: 400px;
+    height: auto;
+}
+
+.welcome {
+    margin: -150px 300px 0 0;
+}
+
+p {
+    margin-top : -50px;
+}
+/*fin body*/
+
+/*FOOTER*/
 footer {
     color: #e5e5e5;
     width: 100%;
     background: linear-gradient(to bottom, #000, #D71529);
     border-top: 1px solid #e5e5e5;
-    padding-top: 50px;
-    display: flex;
-    align-items: center;
-    height: 6vh;
+    height: 40px;
 }
 
-.img-right {
-    float: right;
-    margin-top: -8em;
-    margin-right: 50px;
-    width: 1000px;
-    height: auto;
+footer div {
+    font-size: 20px;
+    margin-top: 10px;
 }
+/*fin footer*/
